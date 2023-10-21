@@ -3,10 +3,10 @@
  * @public
  */
 export interface IUser {
-  id: number;
-  username: string;
-  name: string;
-  iconUrl: string;
+  id: number
+  username: string
+  name: string
+  iconUrl: string
 }
 
 /**
@@ -14,13 +14,13 @@ export interface IUser {
  * @public
  */
 export interface IMessage {
-  id: number;
-  teamId: string;
-  channelId: string;
-  userId: string;
-  createdAt: string;
-  user: IUser;
-  body: string;
+  id: number
+  teamId: string
+  channelId: string
+  userId: string
+  createdAt: string
+  user: IUser
+  body: string
 }
 
 /**
@@ -32,10 +32,10 @@ export interface IMessage {
  * detect whether a value conforms to this interface
  */
 export interface ITeam {
-  iconUrl: string;
-  name: string;
-  id: string;
-  channels: IChannel[];
+  iconUrl: string
+  name: string
+  id: string
+  channels: IChannel[]
 }
 
 /**
@@ -43,9 +43,9 @@ export interface ITeam {
  * @public
  */
 export interface IChannel {
-  teamId: string;
-  name: string;
-  description: string;
-  id: string;
-  messages: IMessage[];
+  teamId: string
+  name: string
+  description: string
+  id: string
+  messages: IMessage[]
 }

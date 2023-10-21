@@ -2,15 +2,23 @@
   "name": "js-ts-monotrepos",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:mike-north/js-ts-monorepos.git",
-  "author": "Mike North <michael.l.north@gmail.com>",
-  "license": "BSD-2-Clause",
+  "repository": "git@github.com:moelzanaty3/js-ts-monorepos.git",
+  "author": "Mohammed Elzanaty <mohammedelzanaty129@gmail.com>",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "prepack": "husky install"
   },
+  "workspaces": [
+    "packages/*"
+  ],
   "volta": {
-    "node": "16.14.2",
-    "yarn": "1.22.18"
+    "node": "18.15.0",
+    "yarn": "1.22.19"
+  },
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "lint-staged": "^15.0.2",
+    "prettier": "^3.0.3"
   }
 }
