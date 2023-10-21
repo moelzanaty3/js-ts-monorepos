@@ -1,13 +1,21 @@
 # JS/TS Monorepos
 
-[![Node.js CI (solution)](https://github.com/mike-north/js-ts-monorepos/workflows/Node.js%20CI%20(solution)/badge.svg)](https://github.com/mike-north/js-ts-monorepos/actions?query=workflow%3A%22Node.js+CI+%28solution%29%22)
-[![TypeScript@Next tests (solution)](https://github.com/mike-north/js-ts-monorepos/workflows/TypeScript@Next%20tests%20(solution)/badge.svg)](https://github.com/mike-north/js-ts-monorepos/actions?query=workflow%3A%22TypeScript%40Next+tests+%28solution%29%22)
+- [JS/TS Monorepos](#jsts-monorepos)
+  - [What's this course about?](#whats-this-course-about)
+  - [Project setup](#project-setup)
+    - [Tools](#tools)
+    - [Clone](#clone)
+    - [Install dependencies](#install-dependencies)
+    - [Starting the project](#starting-the-project)
+  - [Legal](#legal)
+  - [Licensing](#licensing)
 
 ## What's this course about?
 
-This course is intended teach those already somewhat familiar with modern
+This course is intended teach those already somewhat familiar with modern 
 JavaScript and TypeScript about monorepos, their use cases and related tools.
-Mike shares some of the experience he's had as LinkedIn's TypeScript infrastructure lead, so you don't have to learn things "the hard way" like he did.
+
+> **Note:** This material used here is from Mike North course on Frontend Master <https://frontendmasters.com/courses/monorepos/>.
 
 ## Project setup
 
@@ -20,20 +28,24 @@ ssh git@github.com
 and getting a response like
 
 ```sh
-Hi mike-north! You've successfully authenticated, but GitHub does not provide shell access.
+Hi Mo Elzanaty! You've successfully authenticated, but GitHub does not provide shell access.
 Connection to github.com closed.
 ```
 
 ### Tools
 
 Next, make sure you have installed [volta](http://volta.sh/) which ensures you have the right version of node and yarn for this project. You can run:
-```
+
+```shell
 volta install node
 ```
+
 and then:
-```
+
+```shell
 volta install yarn
 ```
+
 To get the right versions for this workshop.
 
 We also strongly recommend the use of [Visual Studio Code](https://code.visualstudio.com/) as an authoring tool. If you use something else, you're on your own.
@@ -43,7 +55,7 @@ We also strongly recommend the use of [Visual Studio Code](https://code.visualst
 Next, checkout a working copy of this project
 
 ```sh
-git clone git@github.com:mike-north/js-ts-monorepos
+git clone git@github.com:moelzanaty3/js-ts-monorepos
 ```
 
 enter the directory you just created
@@ -72,9 +84,9 @@ yarn dev
 
 Changing any files in the `src` folder will result in an incremental rebuild, and a refresh of the screen.
 
-By default, the app is served on https://localhost:1234.
+By default, the app is served on <https://localhost:1234>.
 
-# Legal
+## Legal
 
 &copy; 2020 LinkedIn, All Rights Reserved
 
